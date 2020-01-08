@@ -1,0 +1,54 @@
+{% extends "master.html" %}
+
+{% block content %}
+        {% raw -%}
+        <table class="table" v-if="pods.length">
+            <thead>
+              <tr>
+                <th scope="col">Pod Name</th>
+                <th scope="col">Namespace</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody id="tbl">
+                <tr v-for="pod in filter()">
+                    <td @click="popup(pod)" data-toggle="modal" data-target="#exampleModal">{{ pod.n }}</td>
+                    <td>{{ pod.ns }}</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">{{selectedPod.n}}</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <div class="form-group">
+                            <label for="title-label">Command</label>
+                            <input type="text" class="form-control cmd-input" v-model="command" placeholder="$">
+                            <!-- <iframe class="cmd-response" v-if="response"> <i style="color: red">dfsdfsdf</i> {{response}}</iframe> -->
+                            <pre class="cmd-response" v-if="response" v-html="response"></pre>
+
+                        </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="save-btn" @click="exec()">Execute</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="loader" v-if='loader'>Loading...</div>
+        {%- endraw %}
+{% endblock %}

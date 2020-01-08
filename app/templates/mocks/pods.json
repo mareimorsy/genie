@@ -1,0 +1,382 @@
+[
+  {
+    "n": "activity-logs-api-76f5674bc5-7n96b", 
+    "ns": "do"
+  }, 
+  {
+    "n": "activity-logs-cli-76c7fc9b44-xmjrm", 
+    "ns": "do"
+  }, 
+  {
+    "n": "activity-logs-ops-5b58d8d77c-7k2mt", 
+    "ns": "do"
+  }, 
+  {
+    "n": "alerts-app-6ff477dbb4-hg6sx", 
+    "ns": "do"
+  }, 
+  {
+    "n": "auth-api-7676bd55f5-xsvfq", 
+    "ns": "do"
+  }, 
+  {
+    "n": "backoffice-api-57c47686cc-s5w8z", 
+    "ns": "do"
+  }, 
+  {
+    "n": "backoffice-cli-59957dd87c-nbtc5", 
+    "ns": "do"
+  }, 
+  {
+    "n": "backoffice-ops-79c5b94b56-46j7j", 
+    "ns": "do"
+  }, 
+  {
+    "n": "backoffice-www-7bc7754bdb-g8msr", 
+    "ns": "do"
+  }, 
+  {
+    "n": "blacklist-api-5ff7575686-prkqt", 
+    "ns": "do"
+  }, 
+  {
+    "n": "blacklist-ops-94975874c-42rz6", 
+    "ns": "do"
+  }, 
+  {
+    "n": "cms-api-66ccbc55fb-t9lt2", 
+    "ns": "do"
+  }, 
+  {
+    "n": "cms-cli-7ffd58947-tx997", 
+    "ns": "do"
+  }, 
+  {
+    "n": "cms-ops-59bf4658fb-fpmst", 
+    "ns": "do"
+  }, 
+  {
+    "n": "cms-www-686dc9987d-scktl", 
+    "ns": "do"
+  }, 
+  {
+    "n": "config-api-869c6c9645-lfrw6", 
+    "ns": "do"
+  }, 
+  {
+    "n": "currency-api-55575bc47f-wjngk", 
+    "ns": "do"
+  }, 
+  {
+    "n": "discount-api-85c987c6c-xm6wq", 
+    "ns": "do"
+  }, 
+  {
+    "n": "discount-ops-59674b7c79-wcdgm", 
+    "ns": "do"
+  }, 
+  {
+    "n": "discount-www-86758d7446-zzt42", 
+    "ns": "do"
+  }, 
+  {
+    "n": "elasticsearch-client-7687675f9d-jr77m", 
+    "ns": "do"
+  }, 
+  {
+    "n": "elasticsearch-client-7687675f9d-kjdh7", 
+    "ns": "do"
+  }, 
+  {
+    "n": "elasticsearch-data-0", 
+    "ns": "do"
+  }, 
+  {
+    "n": "elasticsearch-data-1", 
+    "ns": "do"
+  }, 
+  {
+    "n": "elasticsearch-master-0", 
+    "ns": "do"
+  }, 
+  {
+    "n": "elasticsearch-master-1", 
+    "ns": "do"
+  }, 
+  {
+    "n": "elasticsearch-master-2", 
+    "ns": "do"
+  }, 
+  {
+    "n": "flight-api-76c998cb9c-mgbwr", 
+    "ns": "do"
+  }, 
+  {
+    "n": "flight-cli-5658f9d769-9ntbf", 
+    "ns": "do"
+  }, 
+  {
+    "n": "flight-ops-7fc4d7f6f5-cmrcw", 
+    "ns": "do"
+  }, 
+  {
+    "n": "flight-rules-api-765956bdc5-bpf8f", 
+    "ns": "do"
+  }, 
+  {
+    "n": "flight-rules-ops-f4d689c75-qmlzf", 
+    "ns": "do"
+  }, 
+  {
+    "n": "flight-rules-www-6f66f4c84d-9wxtg", 
+    "ns": "do"
+  }, 
+  {
+    "n": "flight-search-api-77774597bc-t8wf4", 
+    "ns": "do"
+  }, 
+  {
+    "n": "geo-ip-api-7dc4554489-2nm59", 
+    "ns": "do"
+  }, 
+  {
+    "n": "hello-world-69df469d85-mh76t", 
+    "ns": "do"
+  }, 
+  {
+    "n": "hub-api-b57b96cb6-l2f5t", 
+    "ns": "do"
+  }, 
+  {
+    "n": "hub-ops-66d4f9cf89-z6fnn", 
+    "ns": "do"
+  }, 
+  {
+    "n": "hub-www-79b9f87b6c-2db5c", 
+    "ns": "do"
+  }, 
+  {
+    "n": "mailer-api-7d768b8c5-6xlv5", 
+    "ns": "do"
+  }, 
+  {
+    "n": "mailer-cli-6f4fbf4dd4-fqjfq", 
+    "ns": "do"
+  }, 
+  {
+    "n": "mailer-ops-fcc6845cb-ppwch", 
+    "ns": "do"
+  }, 
+  {
+    "n": "mailer-www-8cb84cbd-sdrbl", 
+    "ns": "do"
+  }, 
+  {
+    "n": "notification-api-c985dcfdf-kwflt", 
+    "ns": "do"
+  }, 
+  {
+    "n": "notification-cli-64c865546d-8tshz", 
+    "ns": "do"
+  }, 
+  {
+    "n": "notification-ops-7b6f86548c-qgmmk", 
+    "ns": "do"
+  }, 
+  {
+    "n": "ops-5875b7d7fb-lmms8", 
+    "ns": "do"
+  }, 
+  {
+    "n": "payment-api-64d7c77c57-2gzgc", 
+    "ns": "do"
+  }, 
+  {
+    "n": "payment-ops-74f5df56dd-j572l", 
+    "ns": "do"
+  }, 
+  {
+    "n": "pdf-api-6c6697f8c9-8cjjf", 
+    "ns": "do"
+  }, 
+  {
+    "n": "rabbitmq-0", 
+    "ns": "do"
+  }, 
+  {
+    "n": "rabbitmq-1", 
+    "ns": "do"
+  }, 
+  {
+    "n": "rabbitmq-2", 
+    "ns": "do"
+  }, 
+  {
+    "n": "radar-api-666fcbd7c8-fjm4j", 
+    "ns": "do"
+  }, 
+  {
+    "n": "radar-cli-78f7c6d7b4-cqf27", 
+    "ns": "do"
+  }, 
+  {
+    "n": "radar-ops-65977659dc-phwds", 
+    "ns": "do"
+  }, 
+  {
+    "n": "radar-www-f8d6b4864-qfs6s", 
+    "ns": "do"
+  }, 
+  {
+    "n": "report-api-57d858b7dc-srl5b", 
+    "ns": "do"
+  }, 
+  {
+    "n": "report-www-bffb59f5b-dbdxc", 
+    "ns": "do"
+  }, 
+  {
+    "n": "scheduler-api-c9fbc7457-l486n", 
+    "ns": "do"
+  }, 
+  {
+    "n": "scheduler-cli-687f77cd96-vt8ln", 
+    "ns": "do"
+  }, 
+  {
+    "n": "scheduler-ops-6499d9f5fb-8dv97", 
+    "ns": "do"
+  }, 
+  {
+    "n": "sms-api-7fb76fc5d8-rn68l", 
+    "ns": "do"
+  }, 
+  {
+    "n": "sms-cli-678f485d5-2qd8t", 
+    "ns": "do"
+  }, 
+  {
+    "n": "sms-ops-7fff8f447f-dbsxw", 
+    "ns": "do"
+  }, 
+  {
+    "n": "suggest-api-dfcf7df75-2gpwf", 
+    "ns": "do"
+  }, 
+  {
+    "n": "ticket-api-86cffd56f-fs48n", 
+    "ns": "do"
+  }, 
+  {
+    "n": "ticket-ops-65f4fc87f9-7wbsv", 
+    "ns": "do"
+  }, 
+  {
+    "n": "uploader-api-6fb8c5f4c4-g72l4", 
+    "ns": "do"
+  }, 
+  {
+    "n": "uploader-cli-6d76678bc5-5jbsl", 
+    "ns": "do"
+  }, 
+  {
+    "n": "uploader-ops-5b88d5d85c-txsrx", 
+    "ns": "do"
+  }, 
+  {
+    "n": "uploader-radar-api-54554b67bc-zcfdx", 
+    "ns": "do"
+  }, 
+  {
+    "n": "user-api-564cffdcff-k4dft", 
+    "ns": "do"
+  }, 
+  {
+    "n": "user-cli-846dd5f78f-k29hr", 
+    "ns": "do"
+  }, 
+  {
+    "n": "user-ops-565cf46bd8-l2qjs", 
+    "ns": "do"
+  }, 
+  {
+    "n": "www-8bf57db4f-zwphv", 
+    "ns": "do"
+  }, 
+  {
+    "n": "www-mobile-85dfbd6699-nm27t", 
+    "ns": "do"
+  }, 
+  {
+    "n": "cluster-autoscaler-aws-cluster-autoscaler-7bf7767d95-7zs4d", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "dns-controller-697c69fc89-5xh6g", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "etcd-manager-events-ip-172-20-45-13.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "etcd-manager-main-ip-172-20-45-13.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-apiserver-ip-172-20-45-13.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-controller-manager-ip-172-20-45-13.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-dns-5fdb85bb5b-c7rp9", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-dns-5fdb85bb5b-p45lx", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-dns-autoscaler-577b4774b5-q9gwr", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-proxy-ip-172-20-32-136.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-proxy-ip-172-20-35-167.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-proxy-ip-172-20-42-227.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-proxy-ip-172-20-45-13.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-proxy-ip-172-20-47-79.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-proxy-ip-172-20-48-191.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "kube-scheduler-ip-172-20-45-13.us-west-1.compute.internal", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "metrics-server-576d574756-qdg9z", 
+    "ns": "kube-system"
+  }, 
+  {
+    "n": "traefik-7c74978b4-dhj95", 
+    "ns": "kube-system"
+  }
+]

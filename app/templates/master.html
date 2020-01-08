@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
+    <title>Genie | Fly365 DevOps manager!</title>
+  </head>
+  <body>
+    <div id="app">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Genie</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
+          </li>
+           <!-- <li class="nav-item">
+            <a class="nav-link" href="changes.html"><i class="fa fa-cogs"></i> Changes</a>
+          </li> -->
+          <!--
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> -->
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" v-model="searchText" type="text" placeholder="Search" aria-label="Search">
+<!--          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>-->
+        </form>
+      </div>
+    </nav>
+    
+    <main role="main" class="container-fluid">
+      {# {% with messages = get_flashed_messages() %}
+			{% if messages %}
+				<div class="alert alert-success" role="alert">
+					<ul>
+						{% for message in messages %}
+							<li><b>{{ message }}</b></li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endif %}
+    {% endwith %}
+    #}
+		{% block content %} {% endblock %}
+        <!-- <div class="input-group form-grofup add-link">
+          <input type="text" class="form-control col-md-10" id="link-field" placeholder="Please enter a valid Souq link">
+          <input type="text" size="4" maxlength="4" class="form-control col-md-2" id="discount-field" placeholder="Discount (%)">
+          <div class="input-group-append">
+              <button id="add-btn" type="button" class="btn btn-success"><i class="fas fa-plus"></i> Add New Link</button>
+          </div>
+        </div> -->
+
+    </main><!-- /.container -->
+    
+    <!-- JavaScript -->
+
+    <script src="{{ url_for('static', filename='js/jquery-3.4.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vue.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vue-resource.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery-3.4.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/ansi_up.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    {% for script in scripts %}
+    <script src="{{ url_for('static', filename='js/' + script) }}"></script>
+    {% endfor %}
+  </body>
+</html>
